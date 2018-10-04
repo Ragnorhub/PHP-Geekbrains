@@ -1,0 +1,13 @@
+.thumb {
+    padding: 10px;
+}
+
+.thumb img {
+    border-radius: 3px;
+    border: 1px solid orange;
+    padding: 1px;
+}
+
+.thumb img:hover {
+    opacity: 0.5;
+}
