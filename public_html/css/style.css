@@ -1,0 +1,43 @@
+html {
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+	margin: 0;
+	font-size: 16px;
+	color: #333;
+}
+h2{
+	text-align: center;
+}
+.login_box,
+.registration_box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.login_box input,
+.registration_box input{
+	margin: 10px;
+	display: block;
+}
+.cart_box,
+.items_box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.item{
+	width: 150px;
+	height: 200px;
+	border: 1px solid green;
+	text-align: center;
+	padding: 15px;
+	margin: 15px;
+}
+.empty_title{
+	text-align: center;
+	font-size: 18px;
+}
